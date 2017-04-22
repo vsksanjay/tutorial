@@ -10,6 +10,8 @@ public class RandomNumber {
 		//return number of milliseconds since January 1, 1970, 00:00:00 GMT
 		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 		System.out.println((long)(timestamp.getTime()/1000)-(long)(1492630000));
+        System.out.println("Hello, World");
 	}
 
 }
+
